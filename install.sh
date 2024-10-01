@@ -8,6 +8,4 @@ cd PS5-UMTX-Jailbreak
 truncate -s 0 dns.conf
 cd ..
 chmod 777 run.sh
-sudo cp -R /home/$USER/PS5-UMTX-Host/jbserver.desktop /etc/rc.local/
 sudo reboot
-#./run.sh
