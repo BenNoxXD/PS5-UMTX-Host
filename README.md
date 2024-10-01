@@ -6,11 +6,8 @@ A simple script to run the UMTX Host.
 <br>
 
 ```sh
-sudo rm -r /home/$USER/PS5-UMTX-Host/
-git clone https://github.com/BenNoxXD/PS5-UMTX-Host/
-cd PS5-UMTX-Host
-chmod +x install.sh
-./install.sh
+wget https://raw.githubusercontent.com/BenNoxXD/PS5-UMTX-Host/refs/heads/main/install.sh
+chmod 777 install.sh
 ```
 
 <br>
