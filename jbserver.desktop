@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=jbserver
-Type=Application
-Exec=sh /home/$USER/PS5-UMTX-Host/run.sh
-Terminal=false
