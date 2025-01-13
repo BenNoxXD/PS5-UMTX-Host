@@ -19,8 +19,8 @@ You can also run it bundled in a Docker Container
 <br>
 
 ```sh
-docker build -t ps5-host .
-docker run -d -t -p 8888:8000 --name ps5server --restart always ps5-host
+docker build -t ps5-umtx-host .
+docker run -d -t -p 8000:8000 --name PS5-UMTX-Host --restart always ps5-umtx-host
 ```
 
 <br>
