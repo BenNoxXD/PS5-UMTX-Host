@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM alpine:latest
 
 ENV PYTHONUNBUFFERED=1
 
