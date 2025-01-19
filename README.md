@@ -1,5 +1,5 @@
 # PS5-UMTX-Host
-Host the UMTX PS5 Exploit on a Raspberry Pi or an any Debian based OS with your custom config
+Host the UMTX PS5 Exploit on a Raspberry Pi or an any Ubuntu based OS
 
 ## Install:
 
