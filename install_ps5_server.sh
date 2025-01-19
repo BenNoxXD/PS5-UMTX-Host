@@ -4,7 +4,7 @@ sudo apt-get install -y git python3 wget
 sudo systemctl stop ps5host
 sudo systemctl disable ps5host
 rm /etc/systemd/system/ps5host.service
-cd /usr/local
+cd /opt
 sudo rm -r PS5-UMTX-Jailbreak
 # download new version
 sudo git clone https://github.com/idlesauce/PS5-UMTX-Jailbreak
@@ -16,7 +16,7 @@ cat > /etc/systemd/system/ps5host.service <<- "EOF"
 Description=PS5 UMTX Host idlesauce
 
 [Service]
-WorkingDirectory=/usr/local/PS5-UMTX-Jailbreak/
+WorkingDirectory=/opt/PS5-UMTX-Jailbreak/
 ExecStart=/usr/bin/python3 simple_server.py
 
 [Install]
@@ -25,4 +25,3 @@ EOF
 # enable the service
 sudo systemctl start ps5host
 sudo systemctl enable ps5host
-# sudo reboot
