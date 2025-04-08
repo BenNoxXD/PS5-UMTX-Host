@@ -1,5 +1,6 @@
 # PS5-UMTX-Host
-Host the UMTX PS5 Exploit on a Raspberry Pi or an any Ubuntu based OS
+Host the the PS5 Exploit on a Raspberry Pi or on any Ubuntu based OS
+This branch is the UMTX one, check others for the different versions.
 
 ## Install:
 
@@ -7,7 +8,7 @@ Host the UMTX PS5 Exploit on a Raspberry Pi or an any Ubuntu based OS
 
 ```sh
 sudo apt update
-curl -s https://raw.githubusercontent.com/BenNoxXD/PS5-UMTX-Host/refs/heads/main/install_ps5_server.sh | sudo bash
+curl -s https://raw.githubusercontent.com/BenNoxXD/PS5-UMTX-Host/refs/heads/umtx/install_ps5_server.sh | sudo bash
 ```
 
 <br>
