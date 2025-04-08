@@ -1,5 +1,5 @@
 # PS5-UMTX2-Host
-Host the UMTX2 PS5 Exploit on a Raspberry Pi or an any Ubuntu based OS
+Host the UMTX2 PS5 Exploit on a Raspberry Pi or on any Ubuntu based OS
 
 ## Install:
 
